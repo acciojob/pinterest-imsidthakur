@@ -3,7 +3,7 @@
 .hero {
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: start;
             align-items: center;
             padding: 20px;
             text-align: center;
@@ -13,8 +13,8 @@
         /* Image styling */
         .hero img {
             width: 100%;
-            max-width: 600px;
-            height: 300px;
+            max-width: 400px;
+            height: 200px;
             object-fit: cover;
             margin-top: 20px;
         }
@@ -22,7 +22,7 @@
         /* Button styling */
         .explore-btn {
             padding: 10px 20px;
-            background-color: #28a745;
+            background-color: red;
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
